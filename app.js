@@ -1,4 +1,3 @@
-/** Type of vehicle */
 
 class Vehicle {
     constructor(make, model, year) {
@@ -16,7 +15,6 @@ class Vehicle {
     }
   }
   
-  /** Cars are a type of vehicle with 4 wheels. */
   
   class Car extends Vehicle {
     constructor(make, model, year) {
@@ -25,7 +23,6 @@ class Vehicle {
     }
   }
   
-  /** Cars are a type of vehicle with 2 wheels. */
   
   class Motorcycle extends Vehicle {
     constructor(make, model, year) {
